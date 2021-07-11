@@ -2,7 +2,7 @@
 
 A simple example of continuous motion classification with Tiny ML. There are a number of one-shot gesture classification examples, but at the time of writing I didn't find many continuous motion examples (not using Impulse Edge).
 
-![video](https://github.com/nicshackle/TinyML_ContinuousMotionClassification/docs/video.png)
+[![video](https://github.com/nicshackle/TinyML_ContinuousMotionClassification/blob/main/docs/video.png?raw=true)](https://vimeo.com/manage/videos/573416024)
 
 ### Hardware
 This example uses the Arduino Sense BLE 33
@@ -22,7 +22,7 @@ This example uses the Arduino Sense BLE 33
 
 In order for the model to classify motions correctly, attention needs to be paid to how you normalise the motion data. 
 Consider the below sample (±1 sec) of motion data for _walking_:
-![Walking motion data](https://github.com/nicshackle/TinyML_ContinuousMotionClassification/docs/oneSample.png)
+![Walking motion data](https://github.com/nicshackle/TinyML_ContinuousMotionClassification/blob/main/docs/oneSample.png?raw=trueg)
 
 In this project, only the Y axis was used for training and classification (see pink bounding box).
 
